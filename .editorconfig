@@ -1,0 +1,14 @@
+# https://editorconfig.org
+
+# ativar root neste arquivo
+root = true
+
+# recuo do tab
+[*]
+indent_style = tab
+trim_trailing_whitespace = true
+
+# o indent_size usado no arquivo `package.json` não pode ser alterado
+[{*.yml,*.yaml,package.json}]
+indent_style = space
+indent_size = 2
